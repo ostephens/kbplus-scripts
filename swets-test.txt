@@ -1,0 +1,942 @@
+Provider,University of Surrey
+Package Identifier,university_of_surrey_master_2014
+Package Name,University of Surrey:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Sociological Research Online,1360-7804,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Massachusetts Medical Society
+Package Identifier,massachusetts_medical_society_master
+Package Name,Massachusetts Medical Society:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2014
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+New England Journal of Medicine,0028-4793,1533-4406,,,,,,,,fulltext,,,,,,,,,,
+Provider,Oxford University Press
+Package Identifier,oxford_university_press_master_2014
+Package Name,Oxford University Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+The Gerontologist,0016-9013,1758-5341,,,,,,,,fulltext,,,,,,,,,,
+Journal of Economic Entomology,0022-0493,,,,,,,,,fulltext,,,,,,,,,,
+The Quarterly Journal of Economics,0033-5533,1531-4650,,,,,,,,fulltext,,,,,,,,,,
+Health & Social Work,0360-7283,1545-6854,,,,,,,,fulltext,,,,,,,,,,
+Social Work Research,1070-5309,1545-6838,,,,,,,,fulltext,,,,,,,,,,
+Social Forces,0037-7732,1534-7605,,,,,,,,fulltext,,,,,,,,,,
+Provider,Taylor & Francis
+Package Identifier,taylor___francis_master_2014
+Package Name,Taylor & Francis:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+"Psychology, Crime & Law",1068-316X,1477-2744,,,,,,,,fulltext,,,,,,,,,,
+Journal of the Learning Sciences,1050-8406,1532-7809,,,,,,,,fulltext,,,,,,,,,,
+International Journal of Bilingual Education and Bilingualism,1367-0050,1747-7522,,,,,,,,fulltext,,,,,,,,,,
+Journal of African Cultural Studies,1369-6815,1469-9346,,,,,,,,fulltext,,,,,,,,,,
+Journal of Eastern African Studies,1753-1055,1753-1063,,,,,,,,fulltext,,,,,,,,,,
+Chinese Sociological Review,2162-0563,,,,,,,,,fulltext,,,,,,,,,,
+Assessment & Evaluation in Higher Education,0260-2938,1469-297X,,,,,,,,fulltext,,,,,,,,,,
+Teaching in Higher Education,1356-2517,1470-1294,,,,,,,,fulltext,,,,,,,,,,
+African Security,1939-2206,1939-2214,,,,,,,,fulltext,,,,,,,,,,
+Journal of Social Work in End-Of-Life & Palliative Care,1552-4256,1552-4264,,,,,,,,fulltext,,,,,,,,,,
+Journal of GLBT Family Studies,1550-428X,1550-4298,,,,,,,,fulltext,,,,,,,,,,
+Cell Cycle,1538-4101,1551-4005,,,,,,,,fulltext,,,,,,,,,,
+Journal of Motor Behavior,0022-2895,1940-1027,,,,,,,,fulltext,,,,,,,,,,
+Journal of the Philosophy of Sport,0094-8705,1543-2939,,,,,,,,fulltext,,,,,,,,,,
+Technometrics,0040-1706,1537-2723,,,,,,,,fulltext,,,,,,,,,,
+Canadian Journal of African Studies - Revue Canadienne des Etudes Africaines,1923-3051,,,,,,,,,fulltext,,,,,,,,,,
+Journal of Economic Policy Reform,1748-7870,1748-7889,,,,,,,,fulltext,,,,,,,,,,
+Autophagy,1554-8627,1554-8635,,,,,,,,fulltext,,,,,,,,,,
+Epigenetics,1559-2294,1559-2308,,,,,,,,fulltext,,,,,,,,,,
+mAbs,1942-0870,1942-0862,,,,,,,,fulltext,,,,,,,,,,
+"Assessment in Education: Principles, Policy & Practice",0969-594X,1465-329X,,,,,,,,fulltext,,,,,,,,,,
+British Journal of Sociology of Education,0142-5692,1465-3346,,,,,,,,fulltext,,,,,,,,,,
+Cambridge Journal of Education,0305-764X,1469-3577,,,,,,,,fulltext,,,,,,,,,,
+Changing English,1358-684X,1469-3585,,,,,,,,fulltext,,,,,,,,,,
+Compare: A Journal of Comparative and International Education,0305-7925,1469-3623,,,,,,,,fulltext,,,,,,,,,,
+Curriculum Journal,0958-5176,1469-3704,,,,,,,,fulltext,,,,,,,,,,
+Educational Action Research,0965-0792,1747-5074,,,,,,,,fulltext,,,,,,,,,,
+The Educational Forum,0013-1725,1938-8098,,,,,,,,fulltext,,,,,,,,,,
+Educational Research,0013-1881,1469-5847,,,,,,,,fulltext,,,,,,,,,,
+Environmental Education Research,1350-4622,1469-5871,,,,,,,,fulltext,,,,,,,,,,
+Gender and Education,0954-0253,1360-0516,,,,,,,,fulltext,,,,,,,,,,
+International Journal of Early Years Education,0966-9760,1469-8463,,,,,,,,fulltext,,,,,,,,,,
+International Research in Geographical and Environmental Education,1038-2046,1747-7611,,,,,,,,fulltext,,,,,,,,,,
+Journal of Curriculum Studies,0022-0272,1366-5839,,,,,,,,fulltext,,,,,,,,,,
+Journal of Education for Teaching,0260-7476,1360-0540,,,,,,,,fulltext,,,,,,,,,,
+Journal of Education Policy,0268-0939,1464-5106,,,,,,,,fulltext,,,,,,,,,,
+Journal of Vocational Education & Training,1363-6820,1747-5090,,,,,,,,fulltext,,,,,,,,,,
+"Mind, Culture, and Activity",1074-9039,1532-7884,,,,,,,,fulltext,,,,,,,,,,
+Research Papers in Education,0267-1522,1470-1146,,,,,,,,fulltext,,,,,,,,,,
+Teacher Development,1366-4530,1747-5120,,,,,,,,fulltext,,,,,,,,,,
+Teachers and Teaching,1354-0602,1470-1278,,,,,,,,fulltext,,,,,,,,,,
+"Technology, Pedagogy and Education",1475-939X,1747-5139,,,,,,,,fulltext,,,,,,,,,,
+Studies in Science Education,0305-7267,1940-8412,,,,,,,,fulltext,,,,,,,,,,
+British Journal of Educational Studies,0007-1005,1467-8527,,,,,,,,fulltext,,,,,,,,,,
+Educational Philosophy and theory,0013-1857,1469-5812,,,,,,,,fulltext,,,,,,,,,,
+Educational Studies,0305-5698,1465-3400,,,,,,,,fulltext,,,,,,,,,,
+The Journal of Environmental Education,0095-8964,1940-1892,,,,,,,,fulltext,,,,,,,,,,
+Provider,Cold Spring Harbor Laboratory Press
+Package Identifier,cold_spring_harbor_laboratory_press_master_2014
+Package Name,Cold Spring Harbor Laboratory Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+RNA,1355-8382,1469-9001,,,,,,,,fulltext,,,,,,,,,,
+Genome Research,1088-9051,1549-5469,,,,,,,,fulltext,,,,,,,,,,
+Genes & Development,0890-9369,1549-5477,,,,,,,,fulltext,,,,,,,,,,
+Cold Spring Habour Protocols,1940-3402,1559-6095,,,,,,,,fulltext,,,,,,,,,,
+Cold Spring Harbour Perspectives in Biology,,1943-0264,,,,,,,,fulltext,,,,,,,,,,
+Provider,Wiley
+Package Identifier,wiley_master_2014
+Package Name,Wiley:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Criminology,0011-1384,1745-9125,,,,,,,,fulltext,,,,,,,,,,
+IDS Bulletin,0265-5012,1759-5436,,,,,,,,fulltext,,,,,,,,,,
+Journal of Adolescent and Adult Literacy,1081-3004,1936-2706,,,,,,,,fulltext,,,,,,,,,,
+Journal of the European Economic Association,1542-4766,1542-4774,,,,,,,,fulltext,,,,,,,,,,
+Symbolic interaction,0195-6086,1533-8665,,,,,,,,fulltext,,,,,,,,,,
+Rural Sociology,0036-0112,1549-0831,,,,,,,,fulltext,,,,,,,,,,
+British Educational Research Journal,0141-1926,1469-3518,,,,,,,,fulltext,,,,,,,,,,
+British Journal of Educational Psychology,2044-8279,,,,,,,,,fulltext,,,,,,,,,,
+Provider,University of Chicago
+Package Identifier,university_of_chicago_master_2014
+Package Name,University of Chicago:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Comparative Education Review,0010-4086,1545-701X,,,,,,,,fulltext,,,,,,,,,,
+The American Naturalist,0003-0147,1537-5323,,,,,,,,fulltext,,,,,,,,,,
+The Journal of Geology,0022-1376,1537-5269,,,,,,,,fulltext,,,,,,,,,,
+Philosophy of Science,0031-8248,1539-767X,,,,,,,,fulltext,,,,,,,,,,
+International Journal of Plant Sciences,1058-5893,1537-5315,,,,,,,,fulltext,,,,,,,,,,
+History of Religions,0018-2710,1545-6935,,,,,,,,fulltext,,,,,,,,,,
+Signs,0097-9740,1545-6943,,,,,,,,fulltext,,,,,,,,,,
+HOPOS,2156-6240,,,,,,,,,fulltext,,,,,,,,,,
+I Tatti Studies in the Italian Renaissance,0393-5949,,,,,,,,,fulltext,,,,,,,,,,
+Critical Historical Studies,2326-4470,,,,,,,,,fulltext,,,,,,,,,,
+International Journal of American Linguistics,0020-7071,1545-7001,,,,,,,,fulltext,,,,,,,,,,
+Provider,Symposium Journals
+Package Identifier,symposium_journals_master_2014
+Package Name,Symposium Journals:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+European Educational Research Journal,1474-9041,,,,,,,,,fulltext,,,,,,,,,,
+E-Learning and Digital Media,2042-7530,,,,,,,,,fulltext,,,,,,,,,,
+Research in Comparative and International Education,1745-4999,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Speech-Language-Hearing Association
+Package Identifier,american_speech_language_hearing_association_master_2013
+Package Name,American Speech-Language-Hearing Association:Master
+Agreement Term Start Year,01/01/2013
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+"Language, Speech, and Hearing Services in Schools",0161-1461,1558-9129,,,,,,,,fulltext,,,,,,,,,,
+Provider,Policy Press
+Package Identifier,policy_press_master_2014
+Package Name,Policy Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Poverty and Social Justice,1759-8273,1759-8281,,,,,,,,fulltext,,,,,,,,,,
+Evidence and Policy,1744-2648,1744-2656,,,,,,,,fulltext,,,,,,,,,,
+Families Relationships and Societies,2046-7443,,,,,,,,,fulltext,,,,,,,,,,
+Voluntary Sector Review,2040-8064,,,,,,,,,fulltext,,,,,,,,,,
+Provider,World Scientific
+Package Identifier,world_scientific_master_2014
+Package Name,World Scientific:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+International Journal of Modern Physics B,1793-6578,,,,,,,,,fulltext,,,,,,,,,,
+Provider,MIT Press
+Package Identifier,mit_press_master_2014
+Package Name,The MIT Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+African Arts,0001-9933,1937-2108,,,,,,,,fulltext,,,,,,,,,,
+Journal of Cold War Studies,1520-3972,1531-3298,,,,,,,,fulltext,,,,,,,,,,
+Journal of Cognitive Neuroscience,0898-929X,,,,,,,,,fulltext,,,,,,,,,,
+Perspectives on Science,1063-6145,1530-9274,,,,,,,,fulltext,,,,,,,,,,
+Provider,Bloomsbury
+Package Identifier,master
+Package Name,Bloomsbury:Master
+Agreement Term Start Year,01/01/2011
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+"Home Cultures - The Journal of Architecture, Design & Domestic Space",1740-6315,1751-7427,,,,,,,,fulltext,,,,,,,,,,
+Art in Translation,,1756-1310,,,,,,,,fulltext,,,,,,,,,,
+The Senses and Society,1745-8927,1745-8935,,,,,,,,fulltext,,,,,,,,,,
+Luxury,2051-1817,2051-1825,,,,,,,,fulltext,,,,,,,,,,
+Cultural and Social History,1478-0038,1478-0046,,,,,,,,fulltext,,,,,,,,,,
+Provider,White Horse Press
+Package Identifier,white_horse_press_master_2014
+Package Name,White Horse Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Nomadic Peoples,0822-7942,1752-2366,,,,,,,,fulltext,,,,,,,,,,
+Environmental Values,0963-2719,1752-7015,,,,,,,,fulltext,,,,,,,,,,
+Provider,National Academy of Sciences
+Package Identifier,national_academy_of_sciences_master_2014
+Package Name,National Academy of Sciences:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Proceedings of the National Academy of Sciences of the United States of America,0027-8424,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Academy of Pediatrics
+Package Identifier,Master
+Package Name,American Academy of Pediatrics:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Pediatrics,0031-4005,,,,,,,,,fulltext,,,,,,,,,,
+Provider,AACN American Association of Critical Care
+Package Identifier,Master
+Package Name,AACN American Association of Critical Care:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+American Journal of Critical Care,1062-3264,1937-710X,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Diabetes Association
+Package Identifier,Master
+Package Name,American Diabetes Association:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Diabetes Care,0149-5992,,,,,,,,,fulltext,,,,,,,,,,
+Diabetes,0012-1797,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Society of Tropical Medicine and Hygiene
+Package Identifier,american_society_of_tropical_medicine_and_hygiene_master_2014
+Package Name,American Society of Tropical Medicine and Hygiene:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+American Journal of Tropical Medicine and Hygiene,0002-9637,,,,,,,,,fulltext,,,,,,,,,,
+Provider,SAGE
+Package Identifier,sage_master_2014
+Package Name,SAGE:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Experimental Biology and Medicine,1535-3702,1535-3699,,,,,,,,fulltext,,,,,,,,,,
+Contemporary Sociology: A Journal of Reviews,0094-3061,1939-8638,,,,,,,,fulltext,,,,,,,,,,
+Journal of Health Services Research & Policy,1355-8196,1758-1060,,,,,,,,fulltext,,,,,,,,,,
+Journal of Medical Screening,0969-1413,1475-5793,,,,,,,,fulltext,,,,,,,,,,
+Journal of the Royal Society of Medicine,0141-0768,1758-1095,,,,,,,,fulltext,,,,,,,,,,
+Australian and New Zealand Journal of Criminology,0004-8658,1837-9273,,,,,,,,fulltext,,,,,,,,,,
+Journal of Histochemistry & Cytochemistry,0022-1554,1551-5044,,,,,,,,fulltext,,,,,,,,,,
+"Proceedings of the Institution of Mechanical Engineers, Part A: Journal of Power And Energy",0957-6509,2041-2967,,,,,,,,fulltext,,,,,,,,,,
+"Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in Medicine",0954-4119,2041-3033,,,,,,,,fulltext,,,,,,,,,,
+Educational Policy,0895-9048,1552-3896,,,,,,,,fulltext,,,,,,,,,,
+Journal of Early Childhood Literacy,1468-7984,1741-2919,,,,,,,,fulltext,,,,,,,,,,
+Journal of Teacher Education,0022-4871,1552-7816,,,,,,,,fulltext,,,,,,,,,,
+Language Teaching Research,1362-1688,1477-0954,,,,,,,,fulltext,,,,,,,,,,
+Qualitative Research,1468-7941,1741-3109,,,,,,,,fulltext,,,,,,,,,,
+Educational Researcher  ,0013-189X,1935-102X,,,,,,,,fulltext,,,,,,,,,,
+World Policy Journal,0740-2775,1936-0924,,,,,,,,fulltext,,,,,,,,,,
+Provider,SNMMI
+Package Identifier,Master
+Package Name,SNMMI:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Nuclear Medicine,0161-5505,2159-662X,,,,,,,,fulltext,,,,,,,,,,
+Provider,ASCB American Society for Cell Biology
+Package Identifier,Master
+Package Name,ASCB American Society for Cell Biology:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Molecular Biology of the Cell,1059-1524,1939-4586,,,,,,,,fulltext,,,,,,,,,,
+Provider,Duke University Press
+Package Identifier,duke_university_press_master_2014
+Package Name,Duke University Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Duke Mathematical Journal,0012-7094,1547-7398,,,,,,,,fulltext,,,,,,,,,,
+Duke Mathematical Journal,0012-7094,1547-7398,,,,,,,,fulltext,,,,,,,,,,
+Camera Obscura,0270-5346,1529-1510,,,,,,,,fulltext,,,,,,,,,,
+Radical History Review,0163-6545,1534-1453,,,,,,,,fulltext,,,,,,,,,,
+GLQ: A Journal of Lesbian and Gay Studies,1064-2684,1527-9375,,,,,,,,fulltext,,,,,,,,,,
+Cultural Politics,1743-2197,1751-7435,,,,,,,,fulltext,,,,,,,,,,
+Social Science History,0145-5532,1527-8034,,,,,,,,fulltext,,,,,,,,,,
+Provider,MSP - Mathematical Sciences Publishers
+Package Identifier,Master
+Package Name,MSP - Mathematical Sciences Publishers:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Annals of Mathematics,0003-486X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Optical Society
+Package Identifier,optical_society_master_2014
+Package Name,Optical Society:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Applied Optics,2155-3165,,,,,,,,,fulltext,,,,,,,,,,
+Optics Letters,0146-9592,,,,,,,,,fulltext,,,,,,,,,,
+Journal of the Optic Socie of America-A-Optics Image Scien and Vision,1520-8532,,,,,,,,,fulltext,,,,,,,,,,
+Journal of the Optical Society of America - B - Optical Physics,1520-8540,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Rockefeller University Press
+Package Identifier,rockefeller_university_press_master_2014
+Package Name,Rockefeller University Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+The Journal of General Physiology,0022-1295,1540-7748,,,,,,,,fulltext,,,,,,,,,,
+The Journal of Experimental Medicine,0022-1007,1540-9538,,,,,,,,fulltext,,,,,,,,,,
+Provider,JSTOR
+Package Identifier,jstor_master_2013
+Package Name,JSTOR:Master
+Agreement Term Start Year,01/01/2013
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Historical Studies in the Natural Sciences,1939-1811,1939-182X,,,,,,,,fulltext,,,,,,,,,,
+French Colonial History,1543-7787,,,,,,,,,fulltext,,,,,,,,,,
+Research in African Literatures,0034-5210,1527-2044,,,,,,,,fulltext,,,,,,,,,,
+Journal for Research in Mathematics Education,0021-8251,1945-2306,,,,,,,,fulltext,,,,,,,,,,
+American Journal of Archaeology,0002-9114,1939-828X,,,,,,,,fulltext,,,,,,,,,,
+Music and the Moving Image,2167-8464,1940-7610,,,,,,,,fulltext,,,,,,,,,,
+Provider,Berghahn Journals
+Package Identifier,berghahn_journals_master_2014
+Package Name,Berghahn Journals:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Learning and Teaching: The International Journal of Higher Education in the Social Sciences (LATISS),1755-2273,1755-2281,,,,,,,,fulltext,,,,,,,,,,
+Nature and Culture,1558-5468,,,,,,,,,fulltext,,,,,,,,,,
+Anthropology in Action,0967-201X,1752-2285,,,,,,,,fulltext,,,,,,,,,,
+Journal of Romance Studies,1473-3536,1752-2331,,,,,,,,fulltext,,,,,,,,,,
+Environment and Society,2150-6779,,,,,,,,,fulltext,,,,,,,,,,
+Contributions to the History of Concepts,1807-9326,1874-656X,,,,,,,,fulltext,,,,,,,,,,
+Religion and Society - Berghahn,2150-9301,,,,,,,,,fulltext,,,,,,,,,,
+Social Analysis: The International Journal of Social and Cultural Practice,0155-977X,1558-5727,,,,,,,,fulltext,,,,,,,,,,
+"French Politics, Culture & Society",1537-6370,1558-5271,,,,,,,,fulltext,,,,,,,,,,
+Museum Worlds,2049-6737,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Inderscience Enterprises
+Package Identifier,inderscience_enterprises_master_2014
+Package Name,Inderscience Enterprises:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+International Journal of Sustainable Development,1741-5268,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Brill
+Package Identifier,brill_master_2014
+Package Name,Brill:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Images ,1871-7993,1871-8000,,,,,,,,fulltext,,,,,,,,,,
+Global Responsibility to Protect,1875-9858,1875-984X,,,,,,,,fulltext,,,,,,,,,,
+Vivarium,0042-7543,1568-5349,,,,,,,,fulltext,,,,,,,,,,
+Provider,Johns Hopkins University Press
+Package Identifier,Master
+Package Name,Johns Hopkins University Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+The Journal of Higher Education,0022-1546,1538-4640,,,,,,,,fulltext,,,,,,,,,,
+African American Review,1062-4783,1945-6182,,,,,,,,fulltext,,,,,,,,,,
+The American Indian Quarterly,0095-182X,1534-1828,,,,,,,,fulltext,,,,,,,,,,
+American Jewish History,0164-0178,1086-3141,,,,,,,,fulltext,,,,,,,,,,
+Journal of Asian American Studies,1097-2129,1096-8598,,,,,,,,fulltext,,,,,,,,,,
+Southern Cultures,1068-8218,1534-1488,,,,,,,,fulltext,,,,,,,,,,
+Bulletin of the History of Medicine,0007-5140,1086-3176,,,,,,,,fulltext,,,,,,,,,,
+"American Periodicals: A Journal of History, Criticism, and Bibliography",1054-7479,1548-4238,,,,,,,,fulltext,,,,,,,,,,
+Essays in Medieval Studies,1043-2213,1538-4608,,,,,,,,fulltext,,,,,,,,,,
+Journal of Colonialism and Colonial History,,1532-5768,,,,,,,,fulltext,,,,,,,,,,
+New Hibernia Review / Iris Éireannach Nua,1092-3977,1534-5815,,,,,,,,fulltext,,,,,,,,,,
+Studies in Eighteenth Century Culture,0360-2370,1938-6133,,,,,,,,fulltext,,,,,,,,,,
+American Journal of Mathematics,0002-9327,1080-6377,,,,,,,,fulltext,,,,,,,,,,
+Advertising & Society Review,,1534-7311,,,,,,,,fulltext,,,,,,,,,,
+"Philosophy, Psychiatry, & Psychology",1071-6076,1086-3303,,,,,,,,fulltext,,,,,,,,,,
+Technology and Culture,0040-165X,1097-3729,,,,,,,,fulltext,,,,,,,,,,
+Preternature - MUSE,2161-2188,,,,,,,,,fulltext,,,,,,,,,,
+The Journal of the History of Childhood and Youth,1939-6724,1941-3599,,,,,,,,fulltext,,,,,,,,,,
+Asia Policy,1559-0968,1559-2960,,,,,,,,fulltext,,,,,,,,,,
+Provider,De Gruyter
+Package Identifier,de_gruyter_master_2014
+Package Name,Walter De Gruyter:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Trends in Classics,,1866-7481,,,,,,,,fulltext,,,,,,,,,,
+Journal für die reine und angewandte Mathematik,,1435-5345,,,,,,,,fulltext,,,,,,,,,,
+Linguistic Typology ,,1613-415X,,,,,,,,fulltext,,,,,,,,,,
+Deutsche Zeitschrift fur Philosophie. Zweimonatsschrift der Internationalen Philosophischen Forschung,,2192-1482,,,,,,,,fulltext,,,,,,,,,,
+STUF - Language Typology and Universals,2196-7148,,,,,,,,,fulltext,,,,,,,,,,
+Biological Chemistry,,1437-4315,,,,,,,,fulltext,,,,,,,,,,
+Mammalia,,1864-1547,,,,,,,,fulltext,,,,,,,,,,
+Millennium: Jahrbuch zu Kultur und Geschichte des ersten Jahrtausends n. Chr. = Yearbook on the culture and history of the first millennium c.e.,1867-030X,1867-0318,,,,,,,,fulltext,,,,,,,,,,
+International Yearbook of Futurism Studies,2192-029X,,,,,,,,,fulltext,,,,,,,,,,
+International Yearbook for Tillich Research,2190-7455,,,,,,,,,fulltext,,,,,,,,,,
+SATS - Northern European Journal of Philosophy,,1869-7577,,,,,,,,fulltext,,,,,,,,,,
+Zeitschrift fur Religionswissenschaft,2194-508X,,,,,,,,,fulltext,,,,,,,,,,
+Basic Income Studies,1932-0183,,,,,,,,,fulltext,,,,,,,,,,
+The Economists' Voice,,1553-3832,,,,,,,,fulltext,,,,,,,,,,
+The Forum,,1540-8884,,,,,,,,fulltext,,,,,,,,,,
+World Political Science Review,,1935-6226,,,,,,,,fulltext,,,,,,,,,,
+Militargeschichtliche Zeitschrift,2196-6850,,,,,,,,,fulltext,,,,,,,,,,
+International Review of Applied Linguistics in Language Teaching,,1613-4141,,,,,,,,fulltext,,,,,,,,,,
+Deutsches Dante Jahrbuch,2194-4059,,,,,,,,,fulltext,,,,,,,,,,
+Zeitschrift für Naturforschung A  - A Journal of Physical Sciences,,1865-7109,,,,,,,,fulltext,,,,,,,,,,
+Zeitschrift für Naturforschung B - A Journal of Chemical Sciences,,1865-7117,,,,,,,,fulltext,,,,,,,,,,
+Frühmittelalterliche Studien,,1613-0812,,,,,,,,fulltext,,,,,,,,,,
+Kant Yearbook,1868-4602,,,,,,,,,fulltext,,,,,,,,,,
+Journal of Ancient Near Eastern History,2328-9562,,,,,,,,,fulltext,,,,,,,,,,
+Provider,NRC Research Press
+Package Identifier,nrc_research_press_master_2014
+Package Name,NRC Research Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Canadian Journal of Earth Sciences,,1480-3313,,,,,,,,fulltext,,,,,,,,,,
+Canadian Journal of Physiology and Pharmacology,,1205-7541,,,,,,,,fulltext,,,,,,,,,,
+Canadian Journal of Forest Research,,1208-6037,,,,,,,,fulltext,,,,,,,,,,
+Botany,,1916-2804,,,,,,,,fulltext,,,,,,,,,,
+Canadian Journal of Chemistry,,1480-3291,,,,,,,,fulltext,,,,,,,,,,
+Provider,Ecological Society of America Journals
+Package Identifier,ecological_society_of_america_journals_master_2014
+Package Name,Ecological Society of America Journals:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Frontiers in Ecology and the Environment,1540-9295,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Association of Immunologists
+Package Identifier,american_association_of_immunologists_master_2014
+Package Name,American Association of Immunologists:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of immunology,0022-1767,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Psychiatric Publishing
+Package Identifier,american_psychiatric_publishing_master_2014
+Package Name,American Psychiatric Publishing:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+The American Journal of Psychiatry,0002-953X,1535-7228,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Society for Nutrition
+Package Identifier,american_society_for_nutrition_master_2014
+Package Name,American Society for Nutrition:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+American Journal of Clinical Nutrition,0002-9165,,,,,,,,,fulltext,,,,,,,,,,
+Journal of Nutrition,0022-3166,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Blood Journal Subscription Office
+Package Identifier,Master
+Package Name,Blood Journal Subscription Office:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Blood,1528-0020,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Allen Press
+Package Identifier,Master
+Package Name,Allen Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+"Journal of Parasitology, The",0022-3395,1937-2345,,,,,,,,fulltext,,,,,,,,,,
+Provider,ARVO Association for Research in Vision and
+Package Identifier,Master
+Package Name,ARVO Association for Research in Vision and:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Investigative Ophthalmology and Visual Science,1552-5783,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Inter-Research Science Center
+Package Identifier,inter_research_science_center_master_2014
+Package Name,Inter-Research Science Center:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Climate Research,0936-577X,1616-1572,,,,,,,,fulltext,,,,,,,,,,
+Provider,SPIE - Society Photo Optical Instrumentation
+Package Identifier,Master
+Package Name,SPIE - Society Photo Optical Instrumentation:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Optical Engineering,1560-2303,,,,,,,,,fulltext,,,,,,,,,,
+Provider,University of the Basque Country Press
+Package Identifier,university_of_the_basque_country_press_master
+Package Name,University of the Basque Country Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2014
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+International Journal of Developmental Biology,0214-6282,1696-3547,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Society for Biochemistry and Molecular Biology
+Package Identifier,american_society_for_biochemistry_and_molecular_biology_master
+Package Name,American Society for Biochemistry and Molecular Biology:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Lipid Research,1539-7262,,,,,,,,,fulltext,,,,,,,,,,
+Molecular and Cellular Proteomics,1535-9476,1535-9484,,,,,,,,fulltext,,,,,,,,,,
+Provider,ASPET
+Package Identifier,Master
+Package Name,ASPET:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+The Journal of Pharmacology and Experimental Therapeutics,,1521-0103,,,,,,,,fulltext,,,,,,,,,,
+Molecular Pharmacology,0026-895X,1521-0111,,,,,,,,fulltext,,,,,,,,,,
+Pharmacological Reviews,,1521-0081,,,,,,,,fulltext,,,,,,,,,,
+Provider,Federation of American Societies for Experimental Biology
+Package Identifier,federation_of_american_societies_for_experimental_biology_master
+Package Name,Federation of American Societies for Experimental Biology:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2014
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+FASEB Journal,0892-6638,1530-6860,,,,,,,,fulltext,,,,,,,,,,
+Journal of Leukocyte Biology,0741-5400,1938-3673,,,,,,,,fulltext,,,,,,,,,,
+Provider,The Endocrine Society
+Package Identifier,the_endocrine_society_master_2014
+Package Name,The Endocrine Society:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Endocrine Reviews,0163-769X,,,,,,,,,fulltext,,,,,,,,,,
+The Journal of Clinical Endocrinology & Metabolism,0021-972X,1845-7197,,,,,,,,fulltext,,,,,,,,,,
+Provider,Portland Press
+Package Identifier,portland__press_journals_master_2014
+Package Name,Portland  Press Journals:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Biochemical Journal (1984),0264-6021,1470-8728,,,,,,,,fulltext,,,,,,,,,,
+Clinical Science (1979),0143-5221,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Bioscientifica
+Package Identifier,bioscientifica_master
+Package Name,Bioscientifica:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2114
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+European Journal of Endocrinology,0804-4643,1479-683X,,,,,,,,fulltext,,,,,,,,,,
+Journal of Endocrinology,0022-0795,1479-6805,,,,,,,,fulltext,,,,,,,,,,
+Reproduction,1470-1626,1741-7899,,,,,,,,fulltext,,,,,,,,,,
+Provider,Edizioni Minerva Medica SpA
+Package Identifier,Master
+Package Name,Edizioni Minerva Medica SpA:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Cardiovascular Surgery,1827-191X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Royal College of Surgeons of England
+Package Identifier,Master
+Package Name,Royal College of Surgeons of England:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Annals of the Royal College of Surgeons of England,1478-7083,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Cambridge University Press
+Package Identifier,cambridge_university_press_master_2014
+Package Name,Cambridge University Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Infection Control and Hospital Epidemiology,0899-823X,1559-6834,,,,,,,,fulltext,,,,,,,,,,
+Annual Review of Applied Linguistics,0267-1905,1471-6356,,,,,,,,fulltext,,,,,,,,,,
+Language Teaching,0261-4448,1475-3049,,,,,,,,fulltext,,,,,,,,,,
+Australian Journal of Environmental Education,2049-775X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,University of Wisconsin Press
+Package Identifier,university_of_wisconsin_press_master_2014
+Package Name,University of Wisconsin Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+American Orthoptic Journal,0065-955X,1553-4448,,,,,,,,fulltext,,,,,,,,,,
+Provider,Maney Publishing
+Package Identifier,maney_publishing_master_2014
+Package Name,Maney Publishing:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+British Journal of Psychiatry,0007-1250,1472-1465,,,,,,,,fulltext,,,,,,,,,,
+Dix-Neuf ,,1478-7318,,,,,,,,fulltext,,,,,,,,,,
+Midland History,0047-729X,1756-381X,,,,,,,,fulltext,,,,,,,,,,
+Tel Aviv - Journal of the Tel Aviv University Institute of Archaeology,2040-4786,,,,,,,,,fulltext,,,,,,,,,,
+Chinese Historical Review,2048-7827,,,,,,,,,fulltext,,,,,,,,,,
+The London Journal:  A Review of Metropolitan Society Past and Present,0305-8034,1749-6322,,,,,,,,fulltext,,,,,,,,,,
+Dutch Crossing,0309-6564,1759-7854,,,,,,,,fulltext,,,,,,,,,,
+Romance Studies,0263-9904,1745-8153,,,,,,,,fulltext,,,,,,,,,,
+Medieval Sermon Studies,1366-0691,1749-6276,,,,,,,,fulltext,,,,,,,,,,
+Provider,University of Toronto Press Inc
+Package Identifier,Master
+Package Name,University of Toronto Press Inc:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Canadian Modern Language Review,1710-1131,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Mathematical Society
+Package Identifier,american_mathematical_society_master_2013
+Package Name,American Mathematical Society:Master
+Agreement Term Start Year,01/01/2013
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Quarterly of Applied Mathematics,0033-569X,1552-4485,,,,,,,,fulltext,,,,,,,,,,
+Provider,Botanical Society of America
+Package Identifier,botanical_society_of_america_master_2014
+Package Name,Botanical Society of America:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+American Journal of Botany,0002-9122,1537-2197,,,,,,,,fulltext,,,,,,,,,,
+Provider,American College of Chest Physicians
+Package Identifier,Master
+Package Name,American College of Chest Physicians:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+CHEST,0012-3692,,,,,,,,,fulltext,,,,,,,,,,
+Provider,EDP Sciences
+Package Identifier,edp_sciences_master_2014
+Package Name,EDP Sciences:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Astronomy & Astrophysics,0004-6361,1432-0746,,,,,,,,fulltext,,,,,,,,,,
+Provider,Verlag der Osterreichischen Akademie der
+Package Identifier,Master
+Package Name,Verlag der Osterreichischen Akademie der:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Jahrbuch der Osterreichischen Byzantinistik,1810-536X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Society of Nephrology
+Package Identifier,Master
+Package Name,American Society of Nephrology:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of the American Society of Nephrology,1533-3450,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Bentham Science Publishers Ltd
+Package Identifier,Master
+Package Name,Bentham Science Publishers Ltd:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Current Gene Therapy,1875-5631,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Physicians Postgraduate Press Inc
+Package Identifier,Master
+Package Name,Physicians Postgraduate Press Inc:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Clinical Psychiatry,1555-2101,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Guilford Publications
+Package Identifier,guilford_publications_master_2014
+Package Name,Guilford Publications:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Social Cognition,1943-2798,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Telos Press
+Package Identifier,Master
+Package Name,Telos Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Telos - New York,1940-459X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Vittorio Klostermann
+Package Identifier,Master
+Package Name,Vittorio Klostermann:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Zeitschrift fur Philosophische Forschung,1439-2615,,,,,,,,,fulltext,,,,,,,,,,
+Philosophia Naturalis,1439-2607,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Informa Business Information
+Package Identifier,Master
+Package Name,Informa Business Information:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Expert Review of Vaccines,1476-0584,1744-8395,,,,,,,,fulltext,,,,,,,,,,
+Provider,American College of Physicians
+Package Identifier,Master
+Package Name,American College of Physicians:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Annals of Internal Medicine,0003-4819,,,,,,,,,fulltext,,,,,,,,,,
+Provider,University of Pittsburgh - Carl Beck Papers
+Package Identifier,Master
+Package Name,University of Pittsburgh - Carl Beck Papers:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Carl Beck Papers in Russian and East European Studies,0889-275X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Intellect
+Package Identifier,intellect_master_2014
+Package Name,Intellect:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Crossings - Journal of Migration and Culture,2040-4352,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Society of American Foresters
+Package Identifier,society_of_american_foresters_master_2014
+Package Name,Society of American Foresters:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Forestry,0022-1201,,,,,,,,,fulltext,,,,,,,,,,
+Provider,BioMed Central
+Package Identifier,biomed_central_master_2014
+Package Name,BioMed Central:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Alzheimer's Research & Therapy,,1758-9193,,,,,,,,fulltext,,,,,,,,,,
+Provider,IOS Press
+Package Identifier,master
+Package Name,IOS Press:Master
+Agreement Term Start Year,01/01/2012
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Alzheimer's Disease,1387-2877,1875-8908,,,,,,,,fulltext,,,,,,,,,,
+Provider,American Society for Clinical Investigation
+Package Identifier,american_society_for_clinical_investigation_master
+Package Name,American Society for Clinical Investigation:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,12/07/2016
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Clinical Investigation,0021-9738,1558-8238,,,,,,,,fulltext,,,,,,,,,,
+Provider,PION
+Package Identifier,pion_master_2014
+Package Name,PION:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Perception,0301-0066,1468-4233,,,,,,,,fulltext,,,,,,,,,,
+Provider,James Nicholas Publishers
+Package Identifier,Master
+Package Name,James Nicholas Publishers:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+World Studies in Education,2201-0629,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Emerald
+Package Identifier,emerald_master_2014
+Package Name,Emerald:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+International Journal for Researcher Development,1759-751X,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Begell House Online Journals
+Package Identifier,Master
+Package Name,Begell House Online Journals:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Critical Reviews in Immunology,2162-6472,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Georg Thieme Verlag
+Package Identifier,georg_thieme_verlag_master_2014
+Package Name,Georg Thieme Verlag:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Endoscopy,0013-726X,1438-8812,,,,,,,,fulltext,,,,,,,,,,
+European Journal of Pediatric Surgery,0939-7248,1439-359X,,,,,,,,fulltext,,,,,,,,,,
+Hormone and Metabolic Research,0018-5043,1439-4286,,,,,,,,fulltext,,,,,,,,,,
+Provider,Royal College of General Practitioners
+Package Identifier,Master
+Package Name,Royal College of General Practitioners:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+British Journal of General Practice,0960-1643,1478-5242,,,,,,,,fulltext,,,,,,,,,,
+Provider,John Benjamins Publishing
+Package Identifier,john_benjamins_publishing_master_2014
+Package Name,John Benjamins Publishing:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of Immersion and Content Based Language Education,2212-8441,,,,,,,,,fulltext,,,,,,,,,,
+Provider,ISD - Distributor of Scholarly Books
+Package Identifier,Master
+Package Name,ISD - Distributor of Scholarly Books:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Journal of the Canadian Society for Coptic Studies,2165-0756,,,,,,,,,fulltext,,,,,,,,,,
+Provider,University of Illinois Press
+Package Identifier,Master
+Package Name,University of Illinois Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Public Affairs Quarterly,0887-0373,,,,,,,,,fulltext,,,,,,,,,,
+Journal of Education Finance,0098-9495,1944-6470,,,,,,,,fulltext,,,,,,,,,,
+Provider,Brepols Publishers
+Package Identifier,Master
+Package Name,Brepols Publishers:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Mediaeval Journal,2033-5393,,,,,,,,,fulltext,,,,,,,,,,
+Journal of Medieval Monastic Studies,2034-3523,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Edizioni ETS - Edizioni Tecnico Scientifica
+Package Identifier,Master
+Package Name,Edizioni ETS - Edizioni Tecnico Scientifica:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Nuova Rivista di Letteratura Italiana,1590-7929,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Informs
+Package Identifier,informs_master_2014
+Package Name,Informs:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Management Science,0025-1909,1526-5501,,,,,,,,fulltext,,,,,,,,,,
+INFORMS Journal on Computing,1526-5528,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Liverpool University Press
+Package Identifier,liverpool_university_press_master_2014
+Package Name,Liverpool University Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+HSIR - Historical Studies in Industrial Relations,2049-4459,,,,,,,,,fulltext,,,,,,,,,,
+Provider,MUP - Turpin Distribution Ltd
+Package Identifier,Master
+Package Name,MUP - Turpin Distribution Ltd:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Cahiers Elisabethains - Biannual Journal of English Renaissance Studies,2054-4715,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Now Publishing
+Package Identifier,master
+Package Name,Now Publishers:Master
+Agreement Term Start Year,01/01/2013
+Agreement Term End Year,01/01/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+International Review of Environmental and Resource Economics,1931-1465,1932-1473,,,,,,,,fulltext,,,,,,,,,,
+Provider,Teachers College Record
+Package Identifier,Master
+Package Name,Teachers College Record:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Teachers College Record,,1467-9620,,,,,,,,fulltext,,,,,,,,,,
+Provider,Homer Kitabevi
+Package Identifier,Master
+Package Name,Homer Kitabevi:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+New Perspectives on Turkey,1305-3299,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Magnolia Press
+Package Identifier,Master
+Package Name,Magnolia Press:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Phytotaxa,1179-3163,,,,,,,,,fulltext,,,,,,,,,,
+Provider,Ancient History Bulletin
+Package Identifier,Master
+Package Name,Ancient History Bulletin:Master
+Agreement Term Start Year,01/01/2014
+Agreement Term End Year,31/12/2100
+Consortium,""
+publication_title,ID.issn,ID.eissn,date_first_issue_online,num_first_vol_online,num_first_issue_online,date_last_issue_online,num_last_vol_online,num_last_issue_online,embargo_info,coverage_depth,coverage_notes,publisher_name,ID.doi,platform.host.name,platform.host.url,platform.administrative.name,platform.administrative.url,hybrid_oa,access_start_date,access_end_date
+Ancient History Bulletin,1700-3334,,,,,,,,,fulltext,,,,,,,,,,

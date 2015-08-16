@@ -1,0 +1,35 @@
+Separate out lines that have ISSNs (could be zero) and use these in a normal package upload file to create Package.  Make sure dates are dd/MM/yyyy
+If package upload had 1 or more TIPPs check the Platform ID. Otherwise create Platform (via Data Explorer) http://dev.kbplus.ac.uk/kbplus/platform/show/605
+From remaining lines (i.e. ones without ISSNs) Create TIs (using create_ti.rb script)
+Sort out any lines where manual intervention is needed
+For TIs just created, use 'create_tipp.rb' to create new TIPPs for these TIs in the Package - this creates TIPPs without any coverage information etc.
+Finally use same file to update other information on newly created TIPPs using update_tipp_all.  Make sure dates are yyyy-MM-dd. Make sure URL column named platform_host_url (not dots - csv parser doesn't like dots!)
+
+Test - Package: 1253
+Test - Platform: 605
+
+TEST:
+Upload Package
+./create_ti.rb -u ostephens -p ty88firv -s ~/Downloads/Welsh-Newspapers-Package-2.csv -o welsh-news-ti.csv -i test
+Edit welsh-news-ti.csv - add in header; create missing TIs and change URLs to ti_ids
+./create_tipp.rb -u ostephens -p ty88firv -s ./welsh-news-ti.csv -q 1253 -r 605 -i test
+./update_tipp_all.rb -u ostephens -p ty88firv -i test -s ./welsh-news-ti.csv  -q 1253 -o welsh-news-tipps.csv
+
+DEMO:
+Upload Package ~/Downloads/welshnewspaperspk.csv
+Package = 1261
+Platform = 607
+./create_ti.rb -u ostephens -p ty88firv -s ~/Downloads/Welsh-Newspapers-Package-2.csv -o welsh-news-ti-demo.csv -i demo
+Edit welsh-news-ti-demo.csv - add in header; create missing TIs and change URLs to ti_ids
+./create_tipp.rb -u ostephens -p ty88firv -s ./welsh-news-ti-demo.csv -q <package> -r <platform> -i demo
+./update_tipp_all.rb -u ostephens -p ty88firv -i demo -s ./welsh-news-ti-demo.csv  -q 1261 -o welsh-news-tipps-demo.csv
+
+
+LIVE:
+Upload Package ~/Downloads/welshnewspaperspk.csv
+Package = 1260
+Platform = 605
+./create_ti.rb -u ostephens -p ty88firv -s ~/Downloads/Welsh-Newspapers-Package-2.csv -o welsh-news-ti-live.csv -i www
+Edit welsh-news-ti-live.csv - add in header; create missing TIs and change URLs to ti_ids
+./create_tipp.rb -u ostephens -p ty88firv -s ./welsh-news-ti-live.csv -q 1260 -r 605 -i www
+./update_tipp_all.rb -u ostephens -p ty88firv -i www -s ./welsh-news-ti-live.csv  -q 1260 -o welsh-news-tipps-live.csv

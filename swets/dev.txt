@@ -1,0 +1,54 @@
+AACN American Association of Critical Care_Master.csv
+ARVO Association for Research in Vision and_Master.csv
+ASCB American Society for Cell Biology_Master.csv
+ASPET_Master.csv
+Allen Press_Master.csv
+American Academy of Pediatrics_Master.csv
+American College of Chest Physicians_Master.csv
+American College of Physicians_Master.csv
+American Diabetes Association_Master.csv
+American Society for Biochemistry and Molecular Biology_Master.csv
+American Society of Nephrology_Master.csv
+Ancient History Bulletin_Master.csv
+Begell House Online Journals_Master.csv
+Bentham Science Publishers Ltd_Master.csv
+Blood Journal Subscription Office_Master.csv
+Brepols Publishers_Master.csv
+Edizioni ETS - Edizioni Tecnico Scientifica_Master.csv
+Edizioni Minerva Medica SpA_Master.csv
+Federation of American Societies for Experimental Biology_Master.csv
+Homer Kitabevi_Master.csv
+ISD - Distributor of Scholarly Books_Master.csv
+Inderscience Enterprises_Master.csv
+Indiana University Press_Master.csv
+Informa Business Information_Master.csv
+Informs_Master.csv
+Intellect_Master.csv
+James Nicholas Publishers_Master.csv
+John Benjamins Publishing_Master.csv
+Johns Hopkins University Press_Master.csv
+MSP - Mathematical Sciences Publishers_Master.csv
+MUP - Turpin Distribution Ltd_Master.csv
+Magnolia Press_Master.csv
+Michigan State University Press_Master.csv
+National Council Teachers Mathematics_Master.csv
+Optical Society_Master.csv
+Physicians Postgraduate Press Inc_Master.csv
+Policy Press_Master.csv
+Royal College of General Practitioners_Master.csv
+Royal College of Surgeons of England_Master.csv
+SNMMI_Master.csv
+SPIE - Society Photo Optical Instrumentation_Master.csv
+Teachers College Record_Master.csv
+Telos Press_Master.csv
+The MIT Press_Master.csv
+University of California Press_Master.csv
+University of Chicago_Master.csv
+University of Illinois Press_Master.csv
+University of Pittsburgh - Carl Beck Papers_Master.csv
+University of Toronto Press Inc_Master.csv
+Verlag der Osterreichischen Akademie der_Master.csv
+Vittorio Klostermann_Master.csv
+Walter De Gruyter_Master.csv
+White Horse Press_Master.csv
+World Scientific_Master.csv
