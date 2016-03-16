@@ -51,6 +51,7 @@ orgs = subs[:institutionname].uniq
 proceed = true
 
 orgs.each do |inst|
+    puts "Checking: " + inst
     inst = inst.strip.gsub(" ","_")
     if(!kb.checkInstitution(inst))
         puts inst + ": dashboard was not available. Check shortcode and membership before proceeding"

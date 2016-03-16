@@ -12,7 +12,7 @@ require 'date'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: create_subscriptions_from_swets.rb [options]"
+    opts.banner = "Usage: create_subscriptions_from_ebsco.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
@@ -44,7 +44,7 @@ OptionParser.new do |opts|
     end
 end.parse!
 
-swets = options[:sourcefile]
+ebsco = options[:sourcefile]
 #
 #
 # Need to create a 'Subscription' object, which can have an array of IEs in it
@@ -59,42 +59,38 @@ subscriptions = Hash.new()
 
 
 
-CSV.foreach(swets, :headers => true, :header_converters => :symbol) do |row|
+CSV.foreach(ebsco, :headers => true, :header_converters => :symbol) do |row|
     s_number = row[:subscription_number]
     if (subscriptions[s_number] == nil)
         #no subscription in the array yet, create it
         s = KbSubscription.new()
         s.sidentifier = s_number
-        s.name = row[:kb_subscription_name].to_s + " (SWETS)"
+        s.name = row[:kb_subscription_name].to_s
         # Use the period charge from date as the subscription start date as per Oxford spec
         begin
-            s.sdate = Date.parse(row[:period_charged_from]).to_s
+            s.sdate = Date.parse(row[:start_date]).to_s
         rescue
-            s.sdate = "2014-01-01"
+            s.sdate = "2015-01-01"
         end
-        # Use the period charge to date as the subscription end date as per Oxford spec
-        begin
-            s.edate = Date.parse(row[:period_charged_to]).to_s
-        rescue
-            s.edate = "2014-12-31"
+        # Use the 31/12/2100 as the subscription end date as per Oxford spec
+        s.edate = "2100-12-31"
+
+        if(row[:namespace].to_s.length > 0)
+            s.sid = row[:namespace].to_s + ":" + s_number
         end
+
         subscriptions[s.sidentifier] = s
     end
     i = IE.new()
     # for each line with this sub id
     # check we have a package - if not, no IEs
-    if(row[:kb_master_package_id])
+    if(row[:pkg_id])
         # make sure the package will be linked so we can create the IE successfully
-        subscriptions[s_number].addPackage(row[:kb_master_package_id])
-        if (row[:kb_tipp_id])
-            i.tipp_id = row[:kb_tipp_id]
-            i.ti_id = row[:kb_ti_id]
-            # Use the subscription access start date in the spreadsheet and leave the end date blank as per Oxford spec
-            begin
-                i.sdate = Date.parse(row[:subscription_access__start_date]).to_s
-            rescue
-                #no start date to be set
-            end
+        subscriptions[s_number].addPackage(row[:pkg_id])
+        if (row[:tipp_id])
+            i.tipp_id = row[:tipp_id]
+            i.ti_id = row[:ti_id]
+            # No IE start or End date
             subscriptions[s_number].ies.push(i)
         else
             #No IE to add
@@ -122,7 +118,7 @@ CSV.open(options[:outputfile].to_s, 'w') do |csv_write|
                 end
             end
         end
-        #NEED TO ADD THE IEs USING TIPP ID
+
         subscription.ies.each do |ie|
             if(ie.tipp_id && subscription.id)
                 begin
@@ -132,6 +128,14 @@ CSV.open(options[:outputfile].to_s, 'w') do |csv_write|
                 end
             end
         end
+
+        if(kb.checkId(subscription.sid))
+            puts "Adding ID: " + subscription.sid.to_s + " to " + subscription.id
+            kb.addSubscriptionid(subscription.id,subscription.sid)
+        else
+            puts subscription.sid.to_s + " already exists as an ID in KB+"
+        end
+
         csv_write << ([subscription.id,subscription.url,subscription.name,subscription.sidentifier,subscription.sdate,subscription.edate])
         # subscription.printIEs
     end

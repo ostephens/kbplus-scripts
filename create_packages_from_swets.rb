@@ -11,7 +11,7 @@ require 'uri'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: process_swets_file.rb [options]"
+    opts.banner = "Usage: create_packages_from_swets.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
