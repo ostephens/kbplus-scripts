@@ -6,7 +6,7 @@ require 'CSV'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: rename_packages.rb [options]"
+    opts.banner = "Usage: add_core_statement.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
@@ -33,9 +33,18 @@ end.parse!
 kb = Kb.new(options[:instance],options[:username],options[:password])
 kb.login
 
-titles = options[:sourcefile]
+tips = options[:sourcefile]
 
-CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    kb.removeCoreend(row[:core_assert_id].to_s)
-    puts "Done: " + row[:core_assert_id].to_s
+CSV.foreach(tips, :headers => true, :header_converters => :symbol) do |row|
+    if(row[:tip_id])
+        corestart = ""
+        coreend = ""
+        corestart = row[:core_start]
+        coreend = row[:core_end]
+        if(kb.addCore(row[:tip_id].to_s,corestart.to_s,coreend.to_s))
+            puts "Done: " + row[:tip_id].to_s
+        else
+            puts "Issue adding Core dates to: " + row[:tip_id].to_s
+        end
+    end
 end
