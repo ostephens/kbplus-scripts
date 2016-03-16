@@ -6,7 +6,7 @@ require 'CSV'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: update_tipp_url.rb [options]"
+    opts.banner = "Usage: rename_packages.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
@@ -41,12 +41,20 @@ titles = options[:sourcefile]
 packageid = options[:packageid]
 
 CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    hosturl = row[:platform_host_url]
-    puts row[:ti_id]
-    puts hosturl
+    evol = ""
+    eiss = ""
+    evol = row[:num_last_vol_online]
+    eiss = row[:num_last_issue_online]
+    if(evol.to_s.length === 0 || evol === "NULL")
+        evol = ""
+    end
+    if(eiss.to_s.length === 0 || eiss === "NULL")
+        eiss = ""
+    end
     tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
     if(tipp_id.is_a?(String))
-        kb.updateTIPPhosturl(tipp_id,hosturl)
-        puts "kbplus/tipp/show/" + tipp_id
+        kb.updateTIPPendVolume(tipp_id,evol)
+        kb.updateTIPPendIssue(tipp_id,eiss)
+        puts "kbplus/tipp/show/" + tipp_id + "," + evol + "," + eiss
     end
 end

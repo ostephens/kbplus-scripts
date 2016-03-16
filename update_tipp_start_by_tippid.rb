@@ -6,7 +6,7 @@ require 'CSV'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: update_tipp_url.rb [options]"
+    opts.banner = "Usage: rename_packages.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
@@ -24,10 +24,6 @@ OptionParser.new do |opts|
         options[:sourcefile] = s
     end
 
-    opts.on("-q", "--packageid [PACKAGEID]", "Package ID") do |q|
-        options[:packageid] = [q]
-    end
-
     opts.on_tail("-h", "--help", "Show this message") do
         puts opts
         exit
@@ -38,15 +34,26 @@ kb = Kb.new(options[:instance],options[:username],options[:password])
 kb.login
 
 titles = options[:sourcefile]
-packageid = options[:packageid]
 
 CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    hosturl = row[:platform_host_url]
-    puts row[:ti_id]
-    puts hosturl
-    tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
+    sdate = ""
+    svol = ""
+    siss = ""
+    sdate = row[:date_first_issue_online]
+    svol = row[:num_first_vol_online]
+    siss = row[:num_first_issue_online]
+    if(sdate.to_s.length === 0 || sdate === "NULL")
+        sdate = ""
+    end
+    if(svol.to_s.length === 0 || svol === "NULL")
+        svol = ""
+    end
+    if(siss.to_s.length === 0 || siss === "NULL")
+        siss = ""
+    end
+    tipp_id = row[:tipp_id]
     if(tipp_id.is_a?(String))
-        kb.updateTIPPhosturl(tipp_id,hosturl)
+        kb.updateTIPPstart(tipp_id,sdate,svol,siss)
         puts "kbplus/tipp/show/" + tipp_id
     end
 end

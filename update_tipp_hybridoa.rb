@@ -41,12 +41,19 @@ titles = options[:sourcefile]
 packageid = options[:packageid]
 
 CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    hosturl = row[:platform_host_url]
-    puts row[:ti_id]
-    puts hosturl
-    tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
+    begin
+        tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
+        puts packageid.to_s + "\t" + row[:ti_id].to_s
+    rescue
+        puts packageid.to_s + "\t" + row[:ti_id].to_s + "\tFAILED"
+    end
     if(tipp_id.is_a?(String))
-        kb.updateTIPPhosturl(tipp_id,hosturl)
-        puts "kbplus/tipp/show/" + tipp_id
+        hybrid_oa_status = row[:hybrid_oa_status]
+        begin
+            kb.updateTIPPHybridOA(tipp_id,,hybrid_oa_status)
+            puts "kbplus/tipp/show/" + tipp_id
+        rescue
+            puts "kbplus/tipp/show/" + tipp_id + "\tFAILED"
+        end
     end
 end

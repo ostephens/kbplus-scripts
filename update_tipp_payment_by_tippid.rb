@@ -24,10 +24,6 @@ OptionParser.new do |opts|
         options[:sourcefile] = s
     end
 
-    opts.on("-q", "--packageid [PACKAGEID]", "Package ID") do |q|
-        options[:packageid] = [q]
-    end
-
     opts.on_tail("-h", "--help", "Show this message") do
         puts opts
         exit
@@ -38,15 +34,25 @@ kb = Kb.new(options[:instance],options[:username],options[:password])
 kb.login
 
 titles = options[:sourcefile]
-packageid = options[:packageid]
 
 CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    hosturl = row[:platform_host_url]
-    puts row[:ti_id]
-    puts hosturl
-    tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
+    payment = row[:tipp_payment_rv_fk]
+    tipp_id = row[:tipp_id]
     if(tipp_id.is_a?(String))
-        kb.updateTIPPhosturl(tipp_id,hosturl)
-        puts "kbplus/tipp/show/" + tipp_id
+        if(payment == "236")
+            begin
+                kb.makeTIPPOA(tipp_id)
+                puts "kbplus/tipp/show/" + tipp_id + "\tOA"
+            rescue
+                puts "kbplus/tipp/show/" + tipp_id + "\tFAILED"
+            end
+        elsif (payment == "238")
+            begin
+                kb.makeTIPPUncharged(tipp_id)
+                puts "kbplus/tipp/show/" + tipp_id + "\tUncharged"
+            rescue
+                puts "kbplus/tipp/show/" + tipp_id + "\tFAILED"
+            end
+        end
     end
 end
