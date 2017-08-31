@@ -46,5 +46,7 @@ CSV.foreach(tips, :headers => true, :header_converters => :symbol) do |row|
         else
             puts "Issue adding Core dates to: " + row[:tip_id].to_s
         end
+    else
+        puts "No tip id"
     end
 end
