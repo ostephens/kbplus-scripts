@@ -41,12 +41,14 @@ titles = options[:sourcefile]
 packageid = options[:packageid]
 
 CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    hosturl = row[:platform_host_url]
-    puts row[:ti_id]
-    puts hosturl
-    tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
-    if(tipp_id.is_a?(String))
-        kb.updateTIPPhosturl(tipp_id,hosturl)
-        puts "kbplus/tipp/show/" + tipp_id
+    hosturl = row[:platform_host_url].to_s
+    if(hosturl.length > 0 && hosturl != "NULL")
+        puts row[:ti_id]
+        puts hosturl
+        tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
+        if(tipp_id.is_a?(String))
+            kb.updateTIPPhosturl(tipp_id,hosturl)
+            puts "kbplus/tipp/show/" + tipp_id
+        end
     end
 end
