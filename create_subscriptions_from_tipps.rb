@@ -69,10 +69,10 @@ CSV.foreach(subs, :headers => true, :header_converters => :symbol) do |row|
         begin
             s.sdate = Date.parse(row[:sub_start_date]).to_s
         rescue
-            s.sdate = "2015-01-01"
+            s.sdate = "2016-01-01"
         end
         begin
-            s.seate = Date.parse(row[:sub_end_date]).to_s
+            s.edate = Date.parse(row[:sub_end_date]).to_s
         rescue
             s.edate = "2100-12-31"
         end
