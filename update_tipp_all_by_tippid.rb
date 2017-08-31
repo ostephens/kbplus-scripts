@@ -6,7 +6,7 @@ require 'CSV'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: rename_packages.rb [options]"
+    opts.banner = "Usage: update_tipp_all_by_tippid.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
