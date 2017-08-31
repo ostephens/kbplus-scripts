@@ -3,7 +3,7 @@ class KbSubscription
     	@ies = Array.new()
         @packages = Array.new()
     end
-    attr_accessor :name, :id, :sdate, :edate, :sidentifier, :ies, :packages, :url
+    attr_accessor :name, :id, :sdate, :edate, :sidentifier, :ies, :packages, :url, :sid, :subscriber_sc
 
     def printIEs
     	ies.each do |ie|
