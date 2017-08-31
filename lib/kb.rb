@@ -64,6 +64,19 @@ class Kb
     end
   end
 
+  def lookupCustomprop(value)
+    url = @base_url + "/ajax/lookup?q=" + value.to_s + "&page_limit=10&baseClass=com.k_int.custprops.PropertyDefinition" 
+    json = @magent.get(url).body
+    a = JSON.parse(json)["values"]
+    a.each do |pair|
+      if(pair["text"]==value.to_s)
+        return pair["id"]
+        exit
+      end
+    end
+    return false
+  end
+
   def getpublicPackages
     url = @base_url + "/publicExport/idx?format=json"
     downloadjsoncontent = open(url)
@@ -101,6 +114,14 @@ class Kb
       "value" => "com.k_int.kbplus.RefdataValue:108",
       "pk" => "com.k_int.kbplus.Package:"+package_id.to_s})
   end
+  
+  def updatePackagescope(package_id,scope)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+      "name" => "packageScope",
+      "value" => "com.k_int.kbplus.RefdataValue:"+scope.to_s,
+      "pk" => "com.k_int.kbplus.Package:"+package_id.to_s})
+  end
 
   def updatePackageenddate(package_id,edate)
     begin 
@@ -121,7 +142,7 @@ class Kb
       sdate = DateTime.strptime(sdate, '%Y-%m-%d')
       edate = DateTime.strptime(edate, '%Y-%m-%d')
     rescue
-      puts "Invalid dates"
+      puts name+": Invalid dates"
       exit
     end
     if (@org)
@@ -139,6 +160,15 @@ class Kb
     end
   end
 
+  def makeChildsub(subid,refval)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+        "name" => "isSlaved",
+        "value" => "com.k_int.kbplus.RefdataValue:"+refval.to_s,
+        "pk" => "com.k_int.kbplus.Subscription:"+subid.to_s
+      })
+  end
+
   def linkPackage(subid,packageid,entitlementswitch)
     if(entitlementswitch == "With" || entitlementswitch == "Without")
       url = @base_url + "/subscriptionDetails/linkPackage/" +subid.to_s + "?addId=" + packageid.to_s + "&addType=" + entitlementswitch.to_s
@@ -148,6 +178,72 @@ class Kb
       return false
     end
   end
+
+  def addSubscriptionorg(sub_id,org_id,role)
+    url = @base_url + "/ajax/addOrgRole"
+    @magent.redirect_ok = :permanent
+    page = @magent.post(url, {
+        "Accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "parent" => "com.k_int.kbplus.Subscription:"+sub_id.to_s,
+        "property" => "orgs",
+        "recip_prop" => "sub",
+        "orm_orgoid" => "com.k_int.kbplus.Org:"+org_id.to_s,
+        "orm_orgRole" => role.to_s})
+    @magent.redirect_ok = true
+  end
+
+  def checkId(nsid)
+    url = @base_url + "/ajax/lookup?q=" + nsid.to_s + "&page_limit=10&baseClass=com.k_int.kbplus.Identifier" 
+    json = @magent.get(url).body
+    return JSON.parse(json)["values"].empty?
+  end
+
+  def addSubscriptionid(sub_id,nsid)
+    page = @magent.get(@base_url+"/subscriptionDetails/details/"+sub_id.to_s)
+    subid_form = page.form('add_ident_submit')
+    subid_form['identifier']="com.k_int.kbplus.Identifier:__new__:"+nsid.to_s
+    subid_form.submit
+    # url = @base_url + "/ajax/addToCollection"
+    # @magent.redirect_ok = :permanent
+    # page = @magent.post(url, {
+    #     "Accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    #     "Content-Type" => "application/x-www-form-urlencoded",
+    #     "__context" => "com.k_int.kbplus.Subscription:" + sub_id.to_s,
+    #     "__newObjectClass" => "com.k_int.kbplus.IdentifierOccurrence",
+    #     "__recip" => "sub",
+    #     "identifer" => "com.k_int.kbplus.Identifier:__new__:" + nsid.to_s
+    #   })
+    # pp page.header
+    # @magent.redirect_ok = true
+  end
+
+  def linkSubtolic(sub_id,lic_id)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+        "name" => "owner",
+        "value" => "com.k_int.kbplus.License:"+lic_id.to_s,
+        "pk" => "com.k_int.kbplus.Subscription:"+sub_id.to_s
+      })
+  end
+
+  def checkSubLinked(sub_id)
+    url = @base_url + "/subscriptionDetails/details/" + sub_id.to_s
+    page = @magent.get(url)
+    return page.parser.css('a').text.include? 'Unlink'
+  end
+
+  def checkforPendingchanges(sub_id)
+    url = @base_url + "/subscriptionDetails/index/" + sub_id.to_s
+    page = @magent.get(url)
+    return page.parser.css('a.btn').text.include? 'Accept All'
+  end
+
+  def acceptAll(sub_id)
+    @magent.redirect_ok = :permanent
+    page = @magent.get(@base_url+"/pendingChange/acceptAll/com.k_int.kbplus.Subscription:"+sub_id.to_s)
+    @magent.redirect_ok = :true
+  end
+
 
   def createOrganisation(name,sector)
     url = @base_url + "/org/create"
@@ -175,6 +271,13 @@ class Kb
       end
       update = update_org.submit
     end
+  end
+
+  def addOrgid(org_id,nsid)
+    page = @magent.get(@base_url+"/organisations/show/"+org_id.to_s)
+    orgid_form = page.form_with(:action => "/"+instance+"/ajax/addToCollection")
+    orgid_form['identifier']="com.k_int.kbplus.Identifier:__new__:"+nsid.to_s
+    orgid_form.submit
   end
 
   def checkInstitution(shortcode)
@@ -223,6 +326,31 @@ class Kb
     end
   end
 
+  def updateTIPPstatus(tipp_id,status)
+    url = @base_url + "/ajax/genericSetRel"
+    status = status
+    page = @magent.post(url, {
+      "name" => "status",
+      "value" => "com.k_int.kbplus.RefdataValue:"+status,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPaccessStart(tipp_id,accessstart)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "accessStartDate",
+      "value" => accessstart,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPaccessEnd(tipp_id,accessend)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "accessEndDate",
+      "value" => accessend,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
   def updateTIPPstart(tipp_id,sdate,svol,siss)
     url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
     page = @magent.post(url, {
@@ -236,6 +364,30 @@ class Kb
       "value" => svol,
       "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
 
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "startIssue",
+      "value" => siss,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPstartDate(tipp_id,sdate)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "startDate",
+      "value" => sdate,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPstartVolume(tipp_id,svol)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "startVolume",
+      "value" => svol,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPstartIssue(tipp_id,siss)
     url = @base_url + "/ajax/editableSetValue"
     page = @magent.post(url, {
       "name" => "startIssue",
@@ -263,13 +415,53 @@ class Kb
       "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
   end
 
-   def updateTIPPcoverage(tipp_id,coverage,coveragenote)
+  def updateTIPPendDate(tipp_id,edate)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "endDate",
+      "value" => edate,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPendVolume(tipp_id,evol)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "endVolume",
+      "value" => evol,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPendIssue(tipp_id,eiss)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "endIssue",
+      "value" => eiss,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPcoverage(tipp_id,coverage,coveragenote)
     url = @base_url + "/ajax/editableSetValue"
     page = @magent.post(url, {
       "name" => "coverageDepth",
       "value" => coverage,
       "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
 
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "coverageNote",
+      "value" => coveragenote,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPcoverageDepth(tipp_id,coveragedepth)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "coverageDepth",
+      "value" => coveragedepth,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPcoverageNote(tipp_id,coveragenote)
     url = @base_url + "/ajax/editableSetValue"
     page = @magent.post(url, {
       "name" => "coverageNote",
@@ -286,10 +478,26 @@ class Kb
   end
 
   def makeTIPPOA(tipp_id)
-    url = @base_url + "/ajax/editableSetValue"
+    url = @base_url + "/ajax/genericSetRel"
     page = @magent.post(url, {
       "name" => "payment",
       "value" => "com.k_int.kbplus.RefdataValue:236",
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def updateTIPPHybridOA(tipp_id,hybrid_oa_status)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+      "name" => "hybridOA",
+      "value" => "com.k_int.kbplus.RefdataValue:"+hybrid_oa_status.to_s,
+      "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
+  end
+
+  def makeTIPPUncharged(tipp_id)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+      "name" => "payment",
+      "value" => "com.k_int.kbplus.RefdataValue:238",
       "pk" => "com.k_int.kbplus.TitleInstancePackagePlatform:"+tipp_id.to_s})
   end
 
@@ -317,10 +525,57 @@ class Kb
       "pk" => "com.k_int.kbplus.TitleInstance:"+ti_id.to_s})
   end
 
+  def updateTiPublicationType(ti_id,pub_type)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "publicationType",
+      "value" => pub_type,
+      "pk" => "com.k_int.kbplus.TitleInstance:"+ti_id.to_s})
+  end
+
+  def updateTiPublishedFrom(ti_id,from_date)
+    begin 
+      f_date = DateTime.strptime(from_date, '%Y-%m-%d')
+    rescue
+      puts "Invalid date: " + from_date.to_s + ":" + ti_id.to_s
+      exit
+    end
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "publishedFrom",
+      "value" => from_date,
+      "pk" => "com.k_int.kbplus.TitleInstance:"+ti_id.to_s})
+  end
+
+  def updateTiPublishedTo(ti_id,to_date)
+    begin 
+      t_date = DateTime.strptime(to_date, '%Y-%m-%d')
+    rescue
+      puts "Invalid date: " + to_date.to_s + ":" + ti_id.to_s
+      exit
+    end
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "publishedTo",
+      "value" => to_date,
+      "pk" => "com.k_int.kbplus.TitleInstance:"+ti_id.to_s})
+  end
+
   def mergeTiTitle(ti_deprecate,ti_correct)
     url = @base_url + "/admin/titleMerge?titleIdToDeprecate=" + ti_deprecate + "&correctTitleId=" + ti_correct + "&MergeButton=Go"
     page = @magent.get(url)
     return page.uri.to_s
+  end
+
+  def updateTiTitleStatus(ti_id,status)
+    url = @base_url + "/titleInstance/edit/" + ti_id.to_s
+    @magent.get(url) do |title_edit|
+      update_title =  title_edit.form_with(:action => '/'+instance+'/titleInstance/edit/'+ti_id.to_s)
+      if (status.to_s)
+        update_title["status"] = status.to_s
+      end
+      update = update_title.submit
+    end
   end
 
   def removeIdsfromTI(ti_id)
@@ -335,8 +590,7 @@ class Kb
     puts "No identifiers"
   end
 
-
-   def createLicence(lic_name)
+   def createLicencetemplate(lic_name)
     url = @base_url + "/licenseDetails/processNewTemplateLicense"
     page = @magent.post(url, {
       "reference" => lic_name.to_s
@@ -344,15 +598,142 @@ class Kb
     return page.uri.to_s
   end
 
+  def copyLicence(shortcode,template_id)
+    url = @base_url + "/myInstitutions/" + shortcode.to_s + "/actionLicenses?baselicense=" + template_id.to_s + "&cpy-licence=Y"
+    page = @magent.get(url)
+    return page.uri.to_s
+  end
+
+  def updateLicenceref(lic_id,ref)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "reference",
+      "value" => ref,
+      "pk" => "com.k_int.kbplus.License:"+lic_id.to_s})
+  end
+
+  def updateLicencestartdate(lic_id,startdate)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "startDate",
+      "value" => startdate,
+      "pk" => "com.k_int.kbplus.License:"+lic_id.to_s})
+  end
+
+  def updateLicenceenddate(lic_id,enddate)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+    page = @magent.post(url, {
+      "name" => "endDate",
+      "value" => enddate,
+      "pk" => "com.k_int.kbplus.License:"+lic_id.to_s})
+  end
+
+  def updateLicenseeref(lic_id,ref)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "licenseeRef",
+      "value" => ref,
+      "pk" => "com.k_int.kbplus.License:"+lic_id.to_s})
+  end
+
+  def setLicencecategoryContent(lic_id)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+      "name" => "licenseCategory",
+      "value" => "com.k_int.kbplus.RefdataValue:280",
+      "pk" => "com.k_int.kbplus.License:"+lic_id.to_s})
+  end
+
+  def getLicencepropertyID(lic_id,property_name)
+    url = @base_url + "/licenseDetails/index/" + lic_id
+    @magent.get(url) do |tid|
+      tid.search('//table[@id="custom_props_table"]/tbody/tr').each do |row|
+        if (row.search('td[1]/text()').to_s == property_name)
+          property_id = row.search('td[2]//span/@data-pk').to_s.split(":")[1]
+          return property_id.to_s
+        else
+          next
+        end
+      end
+    end
+    return false
+  end
+
+  def addLicenceproperty(lic_id,prop_id)
+    url = @base_url + "/ajax/addCustomPropertyValue?propIdent="+prop_id.to_s+"&ownerId="+lic_id.to_s+"&editable=true&ownerClass=class+com.k_int.kbplus.License"
+    @magent.get(url)
+  end
+
+  def updateLicencepropertyrefvalue(property_id,property_value)
+    url = @base_url + "/ajax/genericSetRel"
+    page = @magent.post(url, {
+      "name" => "refValue",
+      "value" => "com.k_int.kbplus.RefdataValue:"+property_value.to_s,
+      "pk" => "com.k_int.kbplus.LicenseCustomProperty:"+property_id})
+  end
+
+  def updateLicencepropertystringvalue(property_id,property_value)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "stringValue",
+      "value" => property_value.to_s,
+      "pk" => "com.k_int.kbplus.LicenseCustomProperty:"+property_id})
+  end
+
+  def updateLicencepropertyintvalue(property_id,property_value)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "intValue",
+      "value" => property_value.to_s,
+      "pk" => "com.k_int.kbplus.LicenseCustomProperty:"+property_id})
+  end
+
+  def updateLicencepropertynote(property_id,property_note)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "note",
+      "value" => property_note,
+      "pk" => "com.k_int.kbplus.LicenseCustomProperty:"+property_id})
+  end
+
+  def deleteLicenceproperty(lic_id,property_id)
+    url = @base_url + "/ajax/delCustomProperty/" + property_id.to_s + "?propclass=class+com.k_int.kbplus.LicenseCustomProperty&ownerId=" + lic_id.to_s + "&ownerClass=class+com.k_int.kbplus.License&editable=true"
+    @magent.get(url)
+  end
+
+  def addLicencenote(lic_id,note)
+    url = @base_url + "/docWidget/createNote"
+    @magent.redirect_ok = :permanent
+    page = @magent.post(url, {
+      "ownerid" => lic_id.to_s,
+      "ownerclass" => "com.k_int.kbplus.License",
+      "ownertp" => "license",
+      "licenceNote" => note,
+      "licenceNoteShare" => 0,
+      "SaveNote" => "Save+Changes"})
+    @magent.redirect_ok = true
+  end
+
+  def addLicenceorg(lic_id,org_id,role)
+    url = @base_url + "/ajax/addOrgRole"
+    @magent.redirect_ok = :permanent
+      page = @magent.post(url, {
+        "Accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "parent" => "com.k_int.kbplus.License:"+lic_id.to_s,
+        "property" => "orgLinks",
+        "recip_prop" => "lic",
+        "orm_orgoid" => "com.k_int.kbplus.Org:"+org_id.to_s,
+        "orm_orgRole" => role.to_s})
+    @magent.redirect_ok = true
+  end
+
   def updateRemoteAccessNote(lic_id,value)
     url = @base_url + "/ajax/setFieldTableNote/" + lic_id.to_s + "?type=License"
-    puts url
     page = @magent.post(url, {
       "name" => "remoteAccess",
       "value" => value,
       "pk" => "com.k_int.kbplus.License:"+lic_id.to_s+"S"
       })
-    pp page
   end
 
   def ennumeratePackagesforTitle(ti_id)
@@ -449,12 +830,67 @@ class Kb
       })
   end
 
-  def removeCoreend(coreassert)
-    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy%2FMM%2Fdd"
+  def updateIEembargo(ie_id,embargo)
+    url = @base_url + "/ajax/editableSetValue"
+    page = @magent.post(url, {
+      "name" => "embargo",
+      "value" => embargo,
+      "pk" => "com.k_int.kbplus.IssueEntitlement:"+ie_id.to_s})
+  end
+
+  def addCore(tip_id,corestart,coreend)
+    begin
+      if(corestart.length>0) 
+        sdate = DateTime.strptime(corestart, '%Y-%m-%d')
+      end
+      if(coreend.length>0)
+        edate = DateTime.strptime(coreend, '%Y-%m-%d')
+      end
+    rescue
+      puts "Invalid date on: " + tip_id
+      exit
+    end
+    url = @base_url + "/ajax/coreExtend"
+    begin
+      page = @magent.post(url, {
+        "tipID" => tip_id,
+        "title" => "",
+        "coreStartDate" => corestart,
+        "coreEndDate" => coreend
+        })
+      return true
+    rescue
+      return false
+    end
+  end
+
+  def updateCoreend(coreassert,enddate)
+    url = @base_url + "/ajax/editableSetValue?type=date&format=yyyy-MM-dd"
     page = @magent.post(url, {
       "name" => "endDate",
-      "value" => "",
+      "value" => enddate.to_s,
       "pk" => "com.k_int.kbplus.CoreAssertion:"+coreassert.to_s})
+  end
+
+  def deleteCore(tipid,coreassert)
+    url = @base_url + "/ajax/deleteCoreDate?tipID=" + tipid + "&title=&coreDateID=" + coreassert
+    @magent.get(url)
+  end
+
+  def updateID(id_id,id_value,id_ns_fk)
+    url = @base_url + "/identifier/edit/" + id_id.to_s
+    page = @magent.post(url, {
+      "version" => "0",
+      "value" => id_value,
+      "ig.id" => "null",
+      "ns.id" => id_ns_fk.to_s
+      })
+  end
+
+  def fetchAlltips()
+    url = @base_url + "/api/fetchAllTips"
+    csv = @magent.get(url)
+    return csv.body
   end
 
 end
