@@ -48,7 +48,7 @@ kb.login
 titles = options[:sourcefile]
 
 CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    ti_title = row[:publication_title]
+    #ti_title = row[:publication_title]
     ti_id = row[:ti_id]
     package_id = options[:packageid]
     platform_id = options[:platformid]
