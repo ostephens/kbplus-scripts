@@ -50,7 +50,7 @@ CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
     if(tipp_id.is_a?(String))
         hybrid_oa_status = row[:hybrid_oa_status]
         begin
-            kb.updateTIPPHybridOA(tipp_id,,hybrid_oa_status)
+            kb.updateTIPPHybridOA(tipp_id,hybrid_oa_status)
             puts "kbplus/tipp/show/" + tipp_id
         rescue
             puts "kbplus/tipp/show/" + tipp_id + "\tFAILED"
