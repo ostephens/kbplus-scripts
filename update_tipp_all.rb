@@ -45,6 +45,7 @@ titles = options[:sourcefile]
 packageid = options[:packageid]
 CSV.open(options[:outputfile].to_s, 'w') do |csv_write|
     CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
+        warning = ""
         sdate = ""
         svol = ""
         siss = ""
@@ -78,13 +79,19 @@ CSV.open(options[:outputfile].to_s, 'w') do |csv_write|
         coverage = "fulltext"
         coveragenote = ""   
         coverage = row[:coverage_depth]
-        coveragenote = row[:coverage_note]
+        coveragenote = row[:coverage_notes]
         hosturl = row[:platform_host_url]
+        if(hosturl.to_s.length === 0 || hosturl === "NULL")
+            eiss = ""
+        end
         tipp_id = row[:tipp_id]
         puts "TI: " + row[:ti_id].to_s
         tipp_id = kb.getTIPPfromTI(row[:ti_id],packageid)
-        sleep 1
+        sleep 0.5
         puts "TIPP: " + tipp_id.to_s
+        if(hosturl.to_s.length === 0 || hosturl === "NULL")
+            warning = "NO HOST URL"
+        end
         if(tipp_id.is_a?(String))
             kb.updateTIPPend(tipp_id,edate,evol,eiss)
             sleep 0.2
@@ -95,7 +102,7 @@ CSV.open(options[:outputfile].to_s, 'w') do |csv_write|
             kb.updateTIPPhosturl(tipp_id,hosturl)
             sleep 0.2
             tipp_url = "kbplus/tipp/show/" + tipp_id.to_s
-            csv_write << [row[:ti_id],tipp_url,sdate,svol,siss,edate,evol,eiss,coveragenote]
+            csv_write << [row[:ti_id],tipp_url,sdate,svol,siss,edate,evol,eiss,coveragenote,warning]
             puts row[:ti_id] + "," + tipp_url
         end
     end
