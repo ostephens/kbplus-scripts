@@ -6,7 +6,7 @@ require 'CSV'
 
 options = {}
 OptionParser.new do |opts|
-    opts.banner = "Usage: update_tipp_url.rb [options]"
+    opts.banner = "Usage: update_tipp_url_by_tippid.rb [options]"
 
     opts.on("-i", "--instance [INSTANCE]","www, test, demo or dev") do |i|
         options[:instance] = i
@@ -24,6 +24,10 @@ OptionParser.new do |opts|
         options[:sourcefile] = s
     end
 
+    opts.on("-o", "--outputfile [OUTPUTFILE]", "Output file") do |o|
+        options[:outputfile] = o
+    end
+
     opts.on_tail("-h", "--help", "Show this message") do
         puts opts
         exit
@@ -34,12 +38,18 @@ kb = Kb.new(options[:instance],options[:username],options[:password])
 kb.login
 
 titles = options[:sourcefile]
-
-CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
-    hosturl = row[:platform_host_url]
-    tipp_id = row[:tipp_id]
-    if(tipp_id.is_a?(String))
-        kb.updateTIPPhosturl(tipp_id,hosturl)
-        puts "kbplus/tipp/show/" + tipp_id
+CSV.open(options[:outputfile].to_s, 'w') do |csv_write|
+    CSV.foreach(titles, :headers => true, :header_converters => :symbol) do |row|
+        hosturl = row[:platform_host_url]
+        tipp_id = row[:tipp_id]
+        begin
+            if(tipp_id.is_a?(String))
+                kb.updateTIPPhosturl(tipp_id,hosturl.to_s)
+                message = "Success"
+            end
+        rescue
+            message = "Failure"
+        end
+        csv_write << ([message,tipp_id])
     end
 end
