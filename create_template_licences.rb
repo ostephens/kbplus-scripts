@@ -41,7 +41,7 @@ CSV.open('lics-created.csv', 'w') do |writer|
     CSV.foreach(licfile, :headers => true, :header_converters => :symbol) do |row|
     	if (row[:name])
     		lic_name = row[:name]
-            newlic = kb.createLicence(lic_name)
+            newlic = kb.createLicencetemplate(lic_name)
             writer << ([lic_name.to_s,newlic.to_s])
     	end
     end
