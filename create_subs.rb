@@ -65,6 +65,17 @@ else
     puts "Proceeding ..."
 end
 
+#Set 'child' refvalue
+if(options[:instance]=='test')
+    refval = '108'
+elsif(options[:instance]=='kbplus')
+    refval = '108'
+elsif(options[:instance]=='demo')
+    refval = '108'
+else
+    refval = false
+end
+
 CSV.open('subs-created.csv', 'w') do |writer|
     orgs.each do |inst|
         puts "STARTING: " + inst
@@ -75,8 +86,27 @@ CSV.open('subs-created.csv', 'w') do |writer|
                 edate = row[:subscriptionexpiry]
                 name = row[:resourcename]
                 ref = row[:subscriptionid]
+                child = row[:childstatus]
                 #ref = SecureRandom.uuid
                 sub_url = kb.createSubscription(name,ref,sdate,edate)
+                subid = sub_url.split("/")[-1] #need to extract sub id from url
+                if(child == "yes" && refval)
+                    kb.makeChildsub(subid,refval)
+                end
+
+                sub_identifier_ns = "jc"
+                sub_identifier = ref
+                sub_id = subid
+                add_id = sub_identifier_ns.to_s+":"+sub_identifier.to_s
+
+                if(kb.checkId(add_id))
+                    msg = "Adding ID: " + add_id.to_s + " to " + sub_id.to_s
+                    kb.addSubscriptionid(sub_id,add_id)
+                else
+                    msg = add_id.to_s + " already exists as an ID in KB+"
+                end
+                puts msg
+
                 writer << ([sub_url] + row.fields)
             end
         end
